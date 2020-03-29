@@ -95,33 +95,6 @@ a:visited {
     line-height: 34px;
 }
 
-.academicsuccessheader {
-    display: flex;
-    flex-direction: row;
-    align-content: right;
-}
-
-#header-text {
-    font-family: Gotu;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 60px;
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    justify-content: center;
-    margin-left: 60px;
-}
-
-.page-description {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: lighter;
-    font-size: 25px;
-    justify-items: center;
-    justify-items: center;
-}
-
 .row1 {
   display: flex;
   flex-direction: row;
@@ -173,7 +146,36 @@ a:visited {
 /**
 CSS for Academic Success
 **/
+.academicsuccessheader {
+    display: flex;
+    flex-direction: row;
+    align-content: right;
+}
 
+#header-text {
+    font-family: Gotu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    margin-left: 60px;
+}
+
+.page-description {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 25px;
+    justify-items: center;
+    justify-items: center;
+}
+
+.academicsuccesscontent {
+    background-color: #F8FDFE;
+}
 .academicsuccess-checklist-r1 {
     display: flex;
     align-items: row
@@ -221,10 +223,56 @@ CSS for Academic Success
     margin-left: 20px;
 }
 
-
-
-
-
 /**
-CSS for Menu
+CSS for Stay Connected
 **/
+
+.stayconnectedheader {
+    display: flex;
+    flex-direction: row;
+    align-content: right;
+}
+
+.bettythebot {
+    display: flex;
+    flex-direction: row;
+    background-color:  #F8FDFE;
+}
+
+.bot-description {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-top: 100px;
+    line-height: 2;
+
+}
+
+.bot-title {
+    padding-top: 5px;
+    font-family: 'Gotu', sans-serif;
+    font-size: 60px;
+    line-height: 2;
+}
+
+.button-col {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.button1 {
+    margin-bottom: 30px;
+}
+
+#bettySource {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+
